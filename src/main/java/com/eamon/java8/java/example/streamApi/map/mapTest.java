@@ -83,12 +83,16 @@ public class mapTest {
     @Test
     public void flatMapTest() {
 
+        System.out.println("----------------[map]--------------------");
+        //一对一的处理，在每个字符串后面加上test输出
         List<String> hello = Arrays.asList("Hello", "World");
+        hello.stream().map(e->e+"test").forEach(System.out::println);
+
+        System.out.println("----------------[flatmap]--------------------");
         //一对多的处理，把每个字符串拆成一个个字符，输出，这点map就无法做到。
         hello.stream().flatMap(e-> Stream.of(e.split(""))).forEach(System.out::println);
 
-        System.out.println("------------------------------------");
-
+        System.out.println("----------------[flatMap升维]--------------------");
         //flatMap升维
         List<Integer> integers = Arrays.asList(1, 23, 54654, 789564);
         List<String> strings = Arrays.asList("小红", "小名", "小刚");
