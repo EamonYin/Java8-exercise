@@ -1,4 +1,4 @@
-package com.eamon.java8.java.example.streamApi.filterSlice;
+package com.eamon.java8.java.example.streamApi.middle.filterSlice;
 
 import com.eamon.java8.java.example.streamApi.Person;
 import org.junit.Test;

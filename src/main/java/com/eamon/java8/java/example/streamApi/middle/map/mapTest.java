@@ -1,4 +1,4 @@
-package com.eamon.java8.java.example.streamApi.map;
+package com.eamon.java8.java.example.streamApi.middle.map;
 
 import com.eamon.java8.java.example.streamApi.Person;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.eamon.java8.java.example.streamApi.sort;
+package com.eamon.java8.java.example.streamApi.middle.sort;
 
 import com.eamon.java8.java.example.streamApi.Person;
 import org.junit.Test;
