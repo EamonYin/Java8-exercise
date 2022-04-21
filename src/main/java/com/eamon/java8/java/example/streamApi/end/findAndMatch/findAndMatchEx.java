@@ -14,7 +14,7 @@ import java.util.stream.Stream;
  * @Author: Eamon
  * @Date: 2022/4/20 17:47
  */
-public class findAndMatchTest {
+public class findAndMatchEx {
 
     List<String> strings = Arrays.asList("我叫小名", "My name is 小李", "我的名字是小名同学");
 
