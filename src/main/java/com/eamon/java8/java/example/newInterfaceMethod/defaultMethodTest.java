@@ -6,7 +6,7 @@ import org.junit.Test;
  * @Author: Eamon
  * @Date: 2022/4/26 16:50
  */
-public class newMethodTest {
+public class defaultMethodTest {
 
     /**
      * lambda 默认方法
