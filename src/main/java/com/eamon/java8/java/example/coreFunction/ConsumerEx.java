@@ -10,7 +10,7 @@ import java.util.function.Consumer;
  */
 public class ConsumerEx {
     /**
-     * Consumer<T> 消费型接
+     * Consumer<T> 消费型接口
      * 对类型为T的对象应用操作，包含方法：
      * void accept(T t)
      */

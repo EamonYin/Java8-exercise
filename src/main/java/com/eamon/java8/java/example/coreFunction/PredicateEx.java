@@ -10,7 +10,7 @@ import java.util.function.Predicate;
  */
 public class PredicateEx {
     /**
-     * Predicate<T> 断定型接
+     * Predicate<T> 断定型接口
      * 确定类型为T的对象是否满足某约束，并返回boolean 值。包含方法
      * boolean test(T t);
      */

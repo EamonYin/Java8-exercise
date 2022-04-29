@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 public class SupplierEx {
 
     /**
-     *Supplier<T> 供给型接
+     *Supplier<T> 供给型接口
      * 返回类型为T的对象，包含方法：
      * T get();
     **/
